@@ -31,28 +31,23 @@ chrome_options.add_experimental_option("prefs", { \
   })
 driver = webdriver.Chrome(executable_path="/usr/lib/chromium-browser/chromedriver", chrome_options=chrome_options)
 
-def resetSTT():
-  driver.get("https://www.google.com/intl/en/chrome/demos/speech.html")
-  s1= Select(driver.find_element_by_id("select_dialect"))
-  s1.select_by_value('en-IN')
-
 def main():
   text_to_speech.operation('Hello There! Wait for a while to let me set things up.')
   #get profile data from firebase
   profile=fb.get('/profile',None)
   #initialize STT for the first time
-  resetSTT()
+  speech_to_text.resetSTT(driver)
   #welcome message
   text_to_speech.operation('Hello ' + profile['name'] + '. How can I help you?')
   while True:
-    if speech_to_text.invoke(driver):
+    if speech_to_text.invoke(driver, 'listen'):
       #user said listen
       text_to_speech.operation('Yes, say it')
       rec_text = speech_to_text.operation(driver)
       think(rec_text, driver)
     else:
       #user did not said listen in n tries
-      resetSTT()
+      speech_to_text.resetSTT(driver)
 
 #opening
 main()

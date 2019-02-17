@@ -2,7 +2,6 @@ import interfaces
 from utility import text_to_speech
 from utility import speech_to_text
 
-
 def think(speech_text, driver):
     def check_message(check):
         words_of_message = speech_text.split()
@@ -36,6 +35,9 @@ def think(speech_text, driver):
             state="off"
         print(state)
         interfaces.relay_operation(l_name, state)
+
+    elif check_message(['play']):
+        interfaces.play_music(speech_text, driver)
 
     else:
         interfaces.unknown_request()

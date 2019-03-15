@@ -5,6 +5,9 @@ from services import time_tell
 from services import ir_helper
 from services import relay_helper
 from services import music
+from services import alarm_helper
+from services import wiki_helper
+from services import weather_helper
 import time
 
 def who_are_you():
@@ -16,9 +19,8 @@ def what_is_time():
     tts.operation(text)
 
 def play_music(query_text, driver):
-    song=query_text.replace('play','')
     tts.operation('playing song')
-    music.play_song(song, driver)
+    music.play_song(query_text, driver)
     #check stop command
     while True:
         speech_to_text.resetSTT(driver)
@@ -29,8 +31,6 @@ def play_music(query_text, driver):
         else:
             #user did not said stop in n tries
             speech_to_text.resetSTT(driver)
-    
-
 
 def ir_operation(r_name, f_name):
     f_name=f_name.replace(' ','_')
@@ -45,6 +45,20 @@ def ir_operation(r_name, f_name):
 
 def relay_operation(l_name, state):
     response = relay_helper.toggle(l_name, state)
+    tts.operation(response)
+
+def set_alarm(hours, minutes, ap):
+    response = alarm_helper.create(hours, minutes, ap)
+    tts.operation(response)
+
+def search_wiki(input_text):
+    tts.operation('searching')
+    response = wiki_helper.search(input_text)
+    tts.operation(response)
+
+def get_weather():
+    tts.operation('getting weather')
+    response = weather_helper.get_report()
     tts.operation(response)
     
 def unknown_request():

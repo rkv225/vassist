@@ -16,7 +16,7 @@ def operation(driver):
     mic_button = driver.find_element_by_id("start_img")
     out_box = driver.find_element_by_id("final_span")
     mic_button.click()
-    time.sleep(5)
+    time.sleep(8)
     mic_button.click()
     out_text=out_box.text.lower()
     print(out_text)

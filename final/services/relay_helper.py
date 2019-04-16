@@ -22,26 +22,36 @@ def convert_to_binary(state):
     else:
         return 1
 
+def change_state(sw_no, t_state):
+    gpio_pin = 22 if sw_no == 1 else 27 
+    st=t_state
+    os.system("gpio -g write " + str(gpio_pin) + " " + str(st))
+    #modify the state in firebase
+    fb.put('/switches/state',str(sw_no),str(st))
+    if(st == 0):
+        return 1
+    else:
+        return 0
+
 def toggle(l_name, state):
     l_name = l_name.replace(' ','_')
-    sw_no=get_switch(l_name)
+    sw_no = get_switch(l_name)
+    t_state = convert_to_binary(state)
     if(sw_no == -1):
         return "I can't find any device with this name"
     else:
-        gpio_pin = 22 if sw_no == 1 else 27 
         cur_state=get_state(sw_no)
-        if(cur_state == convert_to_binary(state)):
+        if(cur_state == t_state):
             if(cur_state == 0):
                 return " Already in ON state"
             else:
                 return " Already in OF state"
         else:
-            st=convert_to_binary(state)
+            msg = change_state(sw_no, t_state)
             l_name = l_name.replace('_',' ')
-            os.system("gpio -g write " + str(gpio_pin) + " " + str(st))
-            #modify the state in firebase
-            fb.put('/switches/state',str(sw_no),str(st))
-            if(st == 0):
+            if(msg == 1):
+                #turn on success
                 return str(l_name) + " Turned on successfully"
             else:
+                #turn off success
                 return str(l_name) + " Turned off successfully"

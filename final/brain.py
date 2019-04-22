@@ -71,7 +71,12 @@ def think(speech_text, driver):
     elif check_message(['weather']):
         interfaces.get_weather()
 
-    
+    elif check_message(['news']):
+        news_match = re.search(r'(finance|business|world|globe|global|tech|sports)', speech_text)
+        category = "default"
+        if news_match:
+            category = news_match.group(1)
+        interfaces.get_req_news(category)    
 
     else:
         interfaces.unknown_request()

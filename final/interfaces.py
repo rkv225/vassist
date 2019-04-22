@@ -8,6 +8,7 @@ from services import music
 from services import alarm_helper
 from services import wiki_helper
 from services import weather_helper
+from services import news_helper
 import time
 
 def who_are_you():
@@ -60,6 +61,11 @@ def get_weather():
     tts.operation('getting weather')
     response = weather_helper.get_report()
     tts.operation(response)
+
+def get_req_news(category):
+    tts.operation('fetching latest news')
+    news_helper.tell_news(category)
+    tts.operation('this was all for today')
     
 def unknown_request():
     tts.operation("Sorry I don't know this.")

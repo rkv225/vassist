@@ -116,13 +116,16 @@ https://sites.google.com/site/marcobotprojects/my-projects/my-rasplex-video-play
 Installing Selenium:
 
 //make sure the chromium browser is up-to-date
+
 sudo apt-get update
 sudo apt-get install chromium-browser --yes
 
 //install selenium
+
 sudo pip install selenium
 
 //install web driver
+
 sudo apt-get install chromium-chromedriver
 
 ------------------------------------------------------------------------

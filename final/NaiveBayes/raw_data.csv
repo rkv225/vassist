@@ -1,0 +1,300 @@
+Command,Category
+turn on the lights,1
+turn off the lights,1
+turn on the fan ,1
+turn off the fan,1
+turn on the charger,1
+turn off the charger,1
+turn on the coffee machine,1
+turn off the coffee machine,1
+turn on the geyser,1
+turn off the geyser,1
+turn on the microwave,1
+turn off the microwave,1
+turn on the printer,1
+turn off the printer,1
+turn on the room heater,1
+turn off the room heater,1
+turn on the fridge,1
+turn on the refrigerator,1
+turn off the refrgerator,1
+turn off the fridge,1
+turn on the pump,1
+turn off the pump,1
+turn on the toaster,1
+turn off the toaster,1
+turn on the sandwitch maker,1
+turn off the sandwitch maker,1
+turn on the air purifier,1
+turn off the air purifier,1
+turn on the washing machine ,1
+turn off the washing machine,1
+turn on the microwave,1
+turn off the microwave,1
+turn on the oven,1
+turn off the oven,1
+power of tv,2
+volume up of tv,2
+volume down of tv,2
+channel up of tv,2
+channel down of tv,2
+mute of tv,2
+menu of tv,2
+back of tv,2
+next of tv,2
+previous of tv,2
+up of tv,2
+down of tv,2
+left of tv,2
+right of tv,2
+ok of tv,2
+power of ac,2
+sleep of ac,2
+fan of ac,2
+tempreature up of ac,2
+tempreature down of ac,2
+fan up of ac,2
+fan down of ac,2
+mode of ac,2
+increase volume of home theatre,2
+decrease volume of home theatre,2
+next of home theatre,2
+previous of home theatre,2
+power of home theatre,2
+play of home theatre,2
+pause of home theatre,2
+stop of home theatre,2
+play ar rahman jai ho,3
+play asha bhosle jhumka gira re,3
+play lata mangeshkar bindiya chamkegi,3
+play sonu nigam sandese aate hain,3
+play ravi shankar shree,3
+play rd burman chura liya hai tum ne,3
+play zakir hussain songs,3
+play kishore kumar songs,3
+play kailash kher diwani,3
+play sunidhi chauhan,3
+play shreya ghoshal,3
+play guru randhawa,3
+play ankit tiwari,3
+play pritam,3
+play atif aslam,3
+play eminem not afraid,3
+play rihanna umbrella,3
+play taylor swift love story,3
+play drake one dance,3
+play the weekend starboy,3
+play beyonce ,3
+play lady gaga judas,3
+play ed sheeran shape of you,3
+play bruno mars grenade,3
+play post malone rockstar,3
+play justin timerlake mirrors,3
+play elton john,3
+play aerosmith dream on,3
+play katy perry fireworks,3
+play celine dion,3
+play nicki minaj,3
+play britney spears,3
+play travis scott,3
+play adam levine,3
+play black eyed peas pump it,3
+set an alarm for 12:00 am,4
+set an alarm for 1:00 am,4
+set an alarm for 2:00 am,4
+set an alarm for 3:00 am,4
+set an alarm for 4:00 am,4
+set an alarm for 5:00 am,4
+set an alarm for 6:00 am,4
+set an alarm for 7:00 am,4
+set an alarm for 8:00 am,4
+set an alarm for 9:00 am,4
+set an alarm for 10:00 am,4
+set an alarm for 11:00 am,4
+set an alarm for 6:30 am,4
+set an alarm for 7:30 am,4
+set an alarm for 8:30 am,4
+set an alarm for 12:00 pm,4
+set an alarm for 1:00 pm,4
+set an alarm for 2:00 pm,4
+set an alarm for 3:00 pm,4
+set an alarm for 4:00 pm,4
+set an alarm for 5:00 pm,4
+set an alarm for 6:00 pm,4
+set an alarm for 7:00 pm,4
+set an alarm for 8:00 pm,4
+set an alarm for 9:00 pm,4
+set an alarm for 10:00 pm,4
+set an alarm for 11:00 pm,4
+set an alarm for 6:30 pm,4
+set an alarm for 7:30 pm,4
+set an alarm for 8:30 pm,4
+wikipedia about narendra modi,5
+wikipedia about donald trump,5
+wikipedia about mahatma gandhi,5
+wikipedia about hitler,5
+wikipedia about elizabeth,5
+wikipedia about meghan markle,5
+wikipedia about game of thrones,5
+wikipedia about virat kohli,5
+wikipedia about sachin tendulkar,5
+wikipedia about taj mahal,5
+wikipedia about unity statue,5
+wikipedia about bollywood,5
+wikipedia about hollywood,5
+wikipedia about bitcoin,5
+wikipedia about gal gadot,5
+wikipedia about elon musk,5
+wikipedia about facebook,5
+wikipedia about india,5
+wikipedia about obama,5
+wikipedia about youtube,5
+wikipedia about thor,5
+wikipedia about world war,5
+wikipedia about pakistan,5
+wikipedia about rafale,5
+wikipedia about google,5
+wikipedia about sex,5
+wikipedia about harry potter,5
+wikipedia about china,5
+wikipedia about earth,5
+wikipedia about sun,5
+wikipedia about katy perry,5
+wikipedia about dhoni,5
+wikipedia about global warming,5
+what time is it,6
+what is the time,6
+time,6
+tell me the time,6
+tell time,6
+what time,6
+time,6
+hour,6
+minutes,6
+time,6
+time,6
+time,6
+time,6
+time,6
+time,6
+time,6
+time,6
+time,6
+time,6
+time,6
+time,6
+time,6
+time,6
+time,6
+time,6
+time,6
+time,6
+weather,7
+how is the weather,7
+tell me about weather,7
+is it rainy weather,7
+is it sunny weather,7
+is it rainy outside,7
+is it sunny outside,7
+are there clouds,7
+what is temperature outside,7
+is temperature hot,7
+is temperature cold,7
+do I need umbrella today,7
+weather temperature today,7
+rainy sunny overcast,7
+cold hot mild,7
+weather temperature today,7
+rainy sunny overcast,7
+cold hot mild,7
+weather temperature today,7
+rainy sunny overcast,7
+cold hot mild,7
+weather temperature today,7
+rainy sunny overcast,7
+cold hot mild,7
+weather temperature today,7
+rainy sunny overcast,7
+cold hot mild,7
+tell me some top stories of the day,8
+tell me the latest news for today,8
+tell me some breaking news,8
+tell me national news,8
+what is happening around ,8
+tell me some world news,8
+tell me top stories of the world,8
+what is happening around the globe,8
+tell me global news,8
+tell me finance news,8
+finance news for today,8
+finance news stories ,8
+tell me business news ,8
+some business news please,8
+fetch some finance news,8
+get some business news,8
+get some top stories for today,8
+fetch me some global news,8
+tell me some tech news for today,8
+tech stories of now,8
+fetch some text stories,8
+get me latest tech news,8
+latest tech news,8
+top tech news,8
+tell me sports news,8
+get some sports news,8
+top sports news,8
+best sports news,8
+get me sports news,8
+fetch me sports news,8
+get top world news,8
+get the top news of nation,8
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+live cricket score,9
+who are you,10
+give your indroduction,10
+introduce yourself,10
+who are you,10
+give your indroduction,10
+introduce yourself,10
+who are you,10
+give your indroduction,10
+introduce yourself,10
+who are you,10
+give your indroduction,10
+introduce yourself,10
+who are you,10
+give your indroduction,10
+introduce yourself,10
+who are you,10
+give your indroduction,10
+introduce yourself,10
+who are you,10
+indroduce yourself,10
+give your introduction,10
+who are you,10
+indroduce yourself,10
+give your introduction,10

@@ -22,6 +22,7 @@ List of Packages Used
 - openweathermap
 - beautifulsoup
 - Scikit-Learn
+- mpg321 player
 
 ***********************
 Installing Instructions
@@ -139,6 +140,12 @@ Installing OpenWeatherMap api:
 pip install pyowm
 
 References: https://github.com/csparpa/pyowm
+
+------------------------------------------------------------------------
+
+Installing mpg321 player:
+
+sudo apt-get -y install mpg321
 
 
 ------------------------------------------------------------------------

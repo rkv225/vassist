@@ -55,6 +55,7 @@ def set_alarm(hours, minutes, ap):
 def search_wiki(input_text):
     tts.operation('searching')
     response = wiki_helper.search(input_text)
+    print(response)
     tts.operation(response)
 
 def get_weather():

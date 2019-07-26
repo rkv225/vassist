@@ -1,5 +1,8 @@
 # Raspberry Pi Virtual Assistant
 
+## Demonstration Video:
+https://www.youtube.com/watch?v=RqxZrlTKUx0
+
 ### Some points::
 - default audio device should be set to usb pnp device
 - no capital letters should be used in firebase data

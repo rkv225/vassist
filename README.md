@@ -35,8 +35,8 @@ pip install python-firebase
 
 References::
 http://raspberrypi4u.blogspot.com/2017/12/raspberry-pi-iot-firebase-realtimedatabase.html
-
 https://ozgur.github.io/python-firebase/
+
 -------------------------------------------------------------------------
 
 ### Installing pico2wave TTS:
